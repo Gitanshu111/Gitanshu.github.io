@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gitanshu</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/31d9576be2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header" style="background-image: url(https://media.tenor.com/T7MJHBjax1IAAAAM/coding-programmer.gif); background-repeat: no-repeat; background-size: cover; width: 100%; ">
+        <div class="container">
+            <nav>
+                <img src="Img/Gitanshu (1).png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text" style="background-image: url();">
+            <p>Full Stack Developer</p>
+            <h1>Hi, I'm <span >Gitanshu</span> Kumar</h1>
+           
+        </div>
+            
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Img/gta.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>I am currently pursuing my degree in Computer Applications from Chandigarh University ,
+                        where I have been developing my skills in programming, database management, and software development.
+                        I have experience in various programming languages, web development, android Development and database management.
+                        I am a lifelong learner and always seeking opportunities to enhance my skills.
+                        I am excited to pursue a career in the field of technology.
+                        One of my biggest strengths as a BCA student is my ability to
+                         quickly adapt to new technologies and software development methodologies.
+                          I have always been fascinated by the latest trends in technology and 
+                          I am constantly seeking to learn new skills and techniques that can help me 
+                        become a more effective and efficient developer.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experiance')">Experiance</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Development</span><br>Web app Development</li>
+                                <li><span>App Development</span><br>Building Android apps</li>
+                                <li><span>Cloud Computing</span><br>AWS</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experiance">
+                            <ul>
+                                <li><span>2023</span><br>Internship at Lissun</li>
+                               
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2023</span><br>BCA from Chandigarh University</li>
+                                <li><span>2020</span><br>12th As a private Candidates </li>
+                                <li><span>2017</span><br>10th from St. Xavier's Public School</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2>Android Design</h2>
+                    <p>Android design refers to the process of creating aesthetically pleasing and 
+                        user-friendly mobile applications for the Android operating system.
+                         It involves designing interfaces, interactions, and user flows that are consistent
+                          with the Android design guidelines. A well-designed Android app can provide a seamless user experience, 
+                        
+                        improve engagement, and help businesses to achieve their goals.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-gamepad"></i>
+                    
+                    <h2>Web design</h2>
+                    <p>Web design involves creating visually appealing, functional and user-friendly websites. 
+                        It requires a combination of skills such as graphic design, coding, and user experience design.
+                         A well-designed website can help businesses to establish a strong online presence,
+                         attract and retain customers, and improve overall user engagement and satisfaction.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>AWS</h2>
+                    <p>AWS (Amazon Web Services) is a cloud computing platform that provides a wide range of services such as computing, storage,
+                         and databases, among others. With AWS, businesses and individuals can easily and quickly scale their infrastructure and
+                          deploy applications,
+                         allowing them to focus on their core competencies and drive innovation.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Img/wrk1.jpg">
+                <div class="layer">
+                    <h3>Notes and password manager App</h3>
+                    <p>It's an android application. Which we are using to generate a strong Password and save it into the
+                        Notes. It's Fully password protected. No one can access ithout permission.
+                        We never lost our data, whenever we lost our phone , we get all the data in anothner device just after
+                        Login.
+                    </p>
+                    <a href="https://github.com/Gitanshu111/Notes-and-Password-manager"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Img/wrk4.jpg">
+                <div class="layer">
+                    <h3>Tic Tac Toe Game</h3>
+                    <p> It's a game. In which i used C language.
+                    </p>
+                    <a href="https://github.com/Gitanshu111/Tic-toe"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Img/wrk3.jpg">
+                <div class="layer">
+                    <h3>ATM Machine</h3>
+                    <p> It's a pure ATM Machine Based algo. In which i used C++.
+                    </p>
+                    <a href="https://github.com/Gitanshu111/ATM"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/Gitanshu111" class="btn">See more</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>gitanshukumar01@gmail.com</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/Gitanshu111"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/gitanshu-kumar-5a1972211/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://twitter.com/Gitansh1111"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/kumar_gitanshu/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="RESUME_Updated3.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                       <textarea name="Message"  rows="6" placeholder="Your Message" required></textarea>
+                       <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright By © Gitanshu<i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for( tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+        
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbz6gUYkqpLZAihmlMNksTiJS1sUrnVRZxBU1emZi8MjI-gqrIOJRiCMGeslLvh3WOxo/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
