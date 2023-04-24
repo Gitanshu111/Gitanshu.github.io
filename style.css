@@ -184,7 +184,9 @@ width: 100%;
 .work{
     border-radius: 10px;
     position: relative;
+    display: flex;
     overflow: hidden;
+    justify-content: center;
 }
 .work img{
     width: 100;
